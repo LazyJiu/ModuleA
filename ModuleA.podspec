@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ModuleA"
-  s.version          = "1.3.0"
+  s.version          = "1.4.0"
   s.summary          = "A short Test of ModuleA."
 
   s.description      = <<-DESC
@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
   s.source_files = 'ModuleA/Classes/**/*'
   
   s.resource_bundles = {
-     'ModuleA' => ['ModuleA/Assets/*.png']
+     'ModuleA' => ['ModuleA/Assets/*.png'],
+     "ModuleAXIB" => ['ModuleA/Classes/**/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

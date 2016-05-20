@@ -1,19 +1,24 @@
 {
   "name": "ModuleA",
-  "version": "0.1.0",
-  "summary": "A short description of ModuleA.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ModuleA",
+  "version": "1.3.0",
+  "summary": "A short Test of ModuleA.",
+  "description": "A short Test of ModuleA,A short Test of ModuleA",
+  "homepage": "https://www.baidu.com",
   "license": "MIT",
   "authors": {
     "LazyJiu": "248301344@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ModuleA.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/LazyJiu/ModuleA.git",
+    "tag": "1.3.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ModuleA/Classes/**/*"
+  "source_files": "ModuleA/Classes/**/*",
+  "resource_bundles": {
+    "ModuleA": [
+      "ModuleA/Assets/*.png"
+    ]
+  }
 }
