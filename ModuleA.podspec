@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ModuleA"
-  s.version          = "1.4.0"
+  s.version          = "1.4.1"
   s.summary          = "A short Test of ModuleA."
 
   s.description      = <<-DESC
@@ -16,11 +16,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ModuleA/Classes/**/*'
+  s.source_files = 'ModuleA/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-     'ModuleA' => ['ModuleA/Assets/*.png'],
-     "ModuleAXIB" => ['ModuleA/Classes/**/*.xib']
+     'ModuleA' => ['ModuleA/Assets/*.png', 'ModuleA/Classes/**/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
